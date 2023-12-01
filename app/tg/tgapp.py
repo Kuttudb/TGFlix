@@ -1,10 +1,9 @@
-from telethon import TelegramClient,events, Button,tl,utils as tu
-from telethon.sessions import StringSession
+from telethon import TelegramClient,events,Button,tl,utils as tu
 from typing import Union
 from app.core import CONFIG
 from .utils import is_allowed_grp
 
-client = TelegramClient(  StringSession( CONFIG.SESSION_STRING), CONFIG.TG_APP_ID, CONFIG.TG_APP_HASH)
+client = TelegramClient( CONFIG.SESSION_STRING, CONFIG.TG_APP_ID, CONFIG.TG_APP_HASH)
 client.parse_mode = 'md'
 
 
