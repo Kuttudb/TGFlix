@@ -5,9 +5,10 @@ class Config:
 
     TG_APP_ID:int  = 23260418
     TG_APP_HASH :str  = '15418b8765dc3484bd9d6c7777304f27'
-    SESSION_STRING:str
+  
+    SESSION_STRING :str
     ADMIN_UID:int
-    
+  
     DATABASE_URL    = 'postgres://malludb_user:fw4KhBitR5fqljBd9Y84YTz9NVScpZ0X@dpg-clk0e3t8td7s73d9k32g-a.singapore-postgres.render.com/malludb'
 
 
